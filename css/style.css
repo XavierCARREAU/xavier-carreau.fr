@@ -104,6 +104,7 @@ section .heading
 	font-weight: bold;
 	letter-spacing: 4px;
 	text-transform: uppercase;
+	position: fixed;
 }
 
 .navbar .navbar-nav
@@ -142,6 +143,10 @@ section .heading
     margin-bottom: 20px;
 }
 
+#logo{
+	border: 2px solid #EEE5CE ;
+}
+
 .presentation
 {
     margin-top: 50px;
@@ -161,6 +166,10 @@ section .heading
 }
  #about p{
 	 color: #EEE5CE;
+ }
+
+ #presentation a{
+	margin: 10px;
  }
 
 /*skills*/
@@ -241,7 +250,7 @@ section .heading
 	position: absolute;
 	content: " ";
 	width: 5px;
-	background-color: #333;
+	background-color: #1C2735;
 	left: 50%;
 	margin-left: -2.5px;
 }
@@ -259,7 +268,7 @@ section .heading
 
 .timeline > li:before, .timeline > li:after
 {
-	content: " ";
+	content: "";
 	display: table;
 }
 
@@ -274,7 +283,7 @@ section .heading
 	top: 16px;
 	left: 50%;
 	margin-left: -25px;
-	background-color: #111216;
+	background-color: #1C2735;
 	border-radius: 50%
 }
 
@@ -297,12 +306,9 @@ section .heading
 	width: 90%;
 	float: right;
 	margin-right: 40px;
-	border: 1px solid #d4d4d4;
-	border-radius: 7px;
-	padding: 20px 25px;
+	padding: 25px 25px;
 	position: relative;
-	box-shadow: 0 1px 6px rgba(0,0,0,0.175);
-	background: #fff;
+	background: white;
 }
 
 .timeline-panel-container-inverted .timeline-panel
@@ -316,6 +322,10 @@ section .heading
 	list-style: none;
 }
 
+.timeline-name{
+	color: #d82c2e;
+}
+
 
 .timeline-panel:after
 {
@@ -324,8 +334,8 @@ section .heading
 	right: -14px;
 	display: inline-block;
 	border-top: 14px solid transparent;
-	border-left: 14px solid #fff;
-	border-right: 0 solid #fff;
+	border-left: 14px solid white;
+	border-right: 0 solid white;
 	border-bottom: 14px solid transparent;
 	content: " ";
 }
@@ -366,13 +376,11 @@ section .heading
 
 .education-block
 {
-	width: 80%;
+	width: 90%;
 	margin : 0 auto;
 	text-align: center;
 	padding: 30px;
-	background: #fff;
-	border-radius: 10px;
-	border: 2px solid #ccc;
+	background: white;
 	margin-bottom: 40px;
 	height: 400px;
 
@@ -380,7 +388,7 @@ section .heading
 
 .education-block h5
 {
-	color: #888;
+	color: gray;
 	font-size: 15px;
 	margin-bottom: 15px;
 
@@ -429,7 +437,7 @@ section .heading
 /*footer*/
 footer
 {
-	background: #EEE5CE;
+	background: #1C2735;
     padding: 20px 0 40px;
 }
 
