@@ -106,8 +106,6 @@ section .heading
 	letter-spacing: 4px;
 	text-transform: uppercase;
 	position: fixed;
-  	top: 0; /* Position the navbar at the top of the page */
-  	width: 100%; /* Full width */
 }
 
 .navbar .navbar-nav
